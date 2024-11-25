@@ -1,7 +1,50 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+
+    --font-Young_Serif: "Young Serif", serif;
+    --font-Outfit: "Outfit", sans-serif;
+}
+
+body{
+    background-color: var(--Rose-50);
+    width: 100%;
+    height: 100vh;
+}
+
+main{
+    max-width: 375px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--White);
+    border-radius: 18px;
+}
+
+main > .container_img{
+    width: 100%;
+    height: auto;
+}
+
+main > .container_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
