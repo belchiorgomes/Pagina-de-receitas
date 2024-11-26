@@ -30,6 +30,7 @@ hr{
 
 h2{
     font-size: 2.2em;
+    font-family: var(--font-Young_Serif);
     color: var(--Brown-800);
 }
 
@@ -113,6 +114,48 @@ main > section.container_ingredients .container_lista_ingredients ul{
     line-height: 1.8;
 }
     
-main > section.container_instruction{
+main > section.container_instruction h2{
+    margin-block: 18px;
+}
 
+main > section.container_instruction ol{
+    padding-left: 33px;
+    font-size: 1.3em;
+    font-family: var(--font-Outfit);
+}
+
+main > section.container_instruction ol li{
+    margin-bottom: 10px;
+}
+
+main > .container_nutricion h2{
+    margin-bottom: 10px;
+}
+
+main > .container_nutricion table{
+    width: 100%;
+}
+
+main > .container_nutricion table caption{
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+
+main > .container_nutricion table{
+    border-collapse: collapse;
+}
+
+main > .container_nutricion table th, td{
+    border-bottom: 1px solid black;
+    padding: 13px;
+    font-size: 1.2em; 
+}
+
+main > .container_nutricion table th{
+    color: var(--Stone-600);
+}
+
+main > .container_nutricion table td{
+    color: var(--Brown-800);
+    font-weight: bolder;
 }
