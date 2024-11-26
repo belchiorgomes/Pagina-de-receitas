@@ -24,6 +24,15 @@
     --font-Outfit: "Outfit", sans-serif;
 }
 
+hr{
+    margin-block: 20px;
+}
+
+h2{
+    font-size: 2.2em;
+    color: var(--Brown-800);
+}
+
 body{
     background-color: var(--Rose-50);
     width: 100%;
@@ -47,4 +56,63 @@ main > .container_img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 8px;
+}
+
+main > header{
+    margin-block: 18px;
+}
+
+main > header h1{
+    font-family: var(--font-Young_Serif);
+    font-size: 2.1em;
+    color: var(--Stone-900);
+    margin-bottom: 18px;
+}
+
+main > header p{
+    font-size: 1.3em;
+    font-family: var(--font-Outfit);
+}
+
+main > section.container_ingredients{
+    margin-block: 18px;
+}
+
+main > section.container_ingredients .container_preparation{
+    background-color: var(--Rose-50);
+    border-radius: 8px;
+    padding: 13px;
+    margin-block: 18px;
+}
+
+main > section.container_ingredients .container_preparation h3{
+    color: var(--Rose-800);
+    font-size: 1.8em;
+    font-family: var(--font-Outfit);
+    margin-block: 8px;
+}
+
+main > section.container_ingredients .container_preparation ul{
+    padding-left: 33px;
+    font-size: 1.3em;
+    font-family: var(--font-Outfit);
+}
+
+main > section.container_ingredients .container_preparation ul li{
+    line-height: 1.8;
+}
+
+main > section.container_ingredients .container_preparation ul li strong{
+    color: var(--Stone-900);
+}
+
+main > section.container_ingredients .container_lista_ingredients ul{
+    padding-left: 20px;
+    font-size: 1.3em;
+    line-height: 1.8;
+}
+    
+main > section.container_instruction{
+
 }
