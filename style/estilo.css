@@ -153,9 +153,16 @@ main > .container_nutricion table th, td{
 
 main > .container_nutricion table th{
     color: var(--Stone-600);
+    text-align: left;
 }
 
 main > .container_nutricion table td{
     color: var(--Brown-800);
     font-weight: bolder;
+}
+@media screen and (max-width: 1440px){
+    main{
+        max-width: 1440px;
+        margin: 20px;
+    }
 }
