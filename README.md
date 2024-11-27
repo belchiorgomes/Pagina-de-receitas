@@ -1,2 +1,1 @@
-# Pagina de receitas
- cria uma pagina de receita
+# Frontend Mentor - Pagina de receitas
